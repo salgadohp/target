@@ -2,6 +2,18 @@
   "expo": {
     "name": "target",
     "slug": "target",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#3D44CD"
+      },
+      "package": "com.arthurrios.target"
+    },
+    "ios": {
+      "bundleIdentifier": "com.arthurrios.target",
+      "icon": "./assets/ios-icon.png"
+    }
   }
 }
