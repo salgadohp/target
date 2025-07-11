@@ -1,4 +1,4 @@
-package com.arthurrios.target
+package com.salgadohp.target
 
 import android.os.Build
 import android.os.Bundle
