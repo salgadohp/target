@@ -9,6 +9,7 @@ export default function Index() {
             <Button title="Nova meta" onPress={() => router.navigate("/target")} />
 
             <Button title="Transação" onPress={() => router.navigate("/transaction/767574")} />
+            <Button title="Progresso" onPress={() => router.navigate("/in-progress/12")} />
         </View>
     )
 }
