@@ -7,7 +7,7 @@ import { styles } from "./style";
 type Props<T> = FlatListProps<T> & {
     title: string
     emptyMessage?: string
-    containerStyle: StyleProp<ViewStyle>
+    containerStyle?: StyleProp<ViewStyle>
 }
 
 export function List<T>({
